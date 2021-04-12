@@ -1,22 +1,75 @@
+@charset "UTF-8";
+/* Variáveis Sass */
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+}
+
+h1 {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+button {
+  background: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* Conteúdo */
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  background: #f2f2f2;
+}
+
 #container {
+  color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 0.66px;
 }
-#container .box-1 {
-  width: 166px;
-  height: 500px;
-  background: black;
+#container button {
+  margin-top: 50px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 25px;
+  border: 0;
 }
-#container .box-2 {
-  width: 166px;
-  height: 500px;
-  background: blue;
+#container h1 {
+  margin: 25px 0;
 }
-#container .box-3 {
-  width: 166px;
-  height: 500px;
-  background: green;
+#container .card-1 {
+  background-color: #e38826;
+  padding: 50px;
+  border-radius: 10px 0 0 10px;
+}
+#container .card-1 button {
+  color: #e38826;
+}
+#container .card-2 {
+  background-color: #006970;
+  padding: 50px;
+}
+#container .card-2 button {
+  color: #006970;
+}
+#container .card-3 {
+  background-color: #004241;
+  padding: 50px;
+  border-radius: 0 10px 10px 0;
+}
+#container .card-3 button {
+  color: #004241;
 }
 
 /*# sourceMappingURL=styles.css.map */

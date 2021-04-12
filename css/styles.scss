@@ -1,24 +1,87 @@
+/* Variáveis Sass */
+$bright-orange: hsl(31, 77%, 52%);
+$dark-cyan: hsl(184, 100%, 22%);
+$very-dark-cyan: hsl(179, 100%, 13%);
+$transparent-white: hsla(0, 0%, 100%, 0.75);
+$very-light-gray: hsl(0, 0%, 95%);
+
+/* Estilos globais */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+}
+
+h1 {
+	color: $very-light-gray;
+	font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+	color: $transparent-white;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+button {
+	background: $very-light-gray;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Conteúdo */
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	background: $very-light-gray;
+}
+
 #container {
+	color: white;
 
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: .66px;
 
-	.box-1 {
-		width: 166px;
-		height: 500px;
-		background: black;
+	button {
+		margin-top: 50px;
+		cursor: pointer;
+		padding: 15px;
+		border-radius: 25px;
+		border: 0;
 	}
 
-	.box-2 {
-		width: 166px;
-		height: 500px;
-		background: blue;
+	h1 {
+		margin: 25px 0;
 	}
 
-	.box-3 {
-		width: 166px;
-		height: 500px;
-		background: green;
+	.card-1 {
+		background-color: $bright-orange;
+		padding: 50px;
+		border-radius: 10px 0 0 10px;
+
+		button {
+			color: $bright-orange;
+		}
+	}
+
+	.card-2 {
+		background-color: $dark-cyan;
+		padding: 50px;
+
+		button {
+			color: $dark-cyan;
+		}
+	}
+
+	.card-3 {
+		background-color: $very-dark-cyan;
+		padding: 50px;
+		border-radius: 0 10px 10px 0;
+
+		button {
+			color: $very-dark-cyan;
+		}
 	}
 }
