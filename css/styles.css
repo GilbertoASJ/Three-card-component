@@ -1,0 +1,22 @@
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0.66px;
+}
+#container .box-1 {
+  width: 166px;
+  height: 500px;
+  background: black;
+}
+#container .box-2 {
+  width: 166px;
+  height: 500px;
+  background: blue;
+}
+#container .box-3 {
+  width: 166px;
+  height: 500px;
+  background: green;
+}
+
+/*# sourceMappingURL=styles.css.map */
