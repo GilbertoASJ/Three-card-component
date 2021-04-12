@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*border: 1px solid red;*/
+  /* border: 1px solid red; */
 }
 
 h1 {
@@ -43,7 +43,13 @@ body {
   cursor: pointer;
   padding: 15px;
   border-radius: 25px;
-  border: 0;
+  border: 1px solid transparent;
+}
+#container button:hover {
+  background: transparent;
+  color: white !important;
+  border: 1px solid #f2f2f2;
+  transition: 0.3s;
 }
 #container h1 {
   margin: 25px 0;
@@ -70,6 +76,23 @@ body {
 }
 #container .card-3 button {
   color: #004241;
+}
+
+@media (max-width: 575px) {
+  body {
+    height: auto;
+  }
+
+  #container {
+    grid-template-columns: 1fr;
+    padding: 75px 20px;
+  }
+  #container .card-1 {
+    border-radius: 10px 10px 0 0;
+  }
+  #container .card-3 {
+    border-radius: 0 0 10px 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
