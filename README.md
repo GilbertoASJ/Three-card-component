@@ -6,7 +6,7 @@
 ### 📚 Sobre
 
 Three card component é mais um dos desafios do https://www.frontendmentor.io. Na aplicação fui um pouco além e utilizei o SASS para ir praticando e utilizei o grid system.
-Sendo considerad um desafio de dificuldade intermdiária.
+Sendo considerado um desafio de dificuldade fácil.
 
 ### 🎨 Detalhe
 
@@ -45,5 +45,3 @@ Faça o download do repositório e execute index.html
 ### 📃 Licença
 
 Este projeto está sobre a licença <a href="https://github.com/GilbertoASJ/Three-card-component/blob/main/LICENSE">MIT</a>
-
-
